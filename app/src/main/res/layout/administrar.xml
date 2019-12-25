@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@mipmap/ic_buscar" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:id="@+id/editTextFiltrar"
+            android:layout_weight="0.02"
+            android:hint="Buscar ..." />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewProductos"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.55"
+        android:cacheColorHint="#00000000" >
+    </ListView>
+
+</LinearLayout>
