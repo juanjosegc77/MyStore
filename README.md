@@ -3,7 +3,7 @@ Proyecto de control de almacen o alacena.
 
 ## Descripción
 
-Proyecto android para administrar los artículos de un pequeño almacén o alacena, donde se utilizan los códigos de barras para incrementar o decrementar los artículos en existencia.
+Proyecto android para administrar los artículos de un pequeño almacén o alacena. Se utilizan los códigos de barras para incrementar o decrementar los artículos en existencia.
 Se utiliza el paquete "zxing" y se debe instalar la aplicación "Barcode Scanner" para hacer uso de la lectura por códigos de barras.
 La administración de la base de datos de lleva a cabo con SQLite.
 
